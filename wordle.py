@@ -21,7 +21,8 @@ if __name__ == "__main__":
             if len(user_input) == len(word):
                 break
             else:
-                print(f"{move_up}{clear_ligne}{move_up}{clear_ligne}mauvaise longueure")
+                print(f"{move_up}{clear_ligne}{move_up}{clear_ligne}"
+                      "mauvaise longueure")
         print(f"{move_up}{clear_ligne}{move_up}{clear_ligne}", end="\r")
         for i in range(len(word)):
             if user_input[i] == word[i]:
