@@ -39,7 +39,7 @@ The game will display the number of remaining attempts and ask for your guess. E
 ## 📁 Project Structure
 
 - `wordle.py` : main game script
-- `wordlist.txt` : list of available words for the game
+- `wordlist.txt` : list of available words for the game (you can modify this file to use your own word dictionary)
 - `README.md` : this file
 
 ## 🎮 How to Play

@@ -22,7 +22,7 @@ if __name__ == "__main__":
                 break
             else:
                 print(f"{move_up}{clear_ligne}{move_up}{clear_ligne}"
-                      "mauvaise longueure")
+                      "wrong length")
         print(f"{move_up}{clear_ligne}{move_up}{clear_ligne}", end="\r")
         for i in range(len(word)):
             if user_input[i] == word[i]:
@@ -35,5 +35,5 @@ if __name__ == "__main__":
             print(reset, end='')
         if user_input == word:
             print(f"\nfinded ! the word is {word}")
-            break
+            exit()
     print(f"\ngame over, the word was {word}")
