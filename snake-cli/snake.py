@@ -50,13 +50,13 @@ def update_pos():
     global direction
     local_dir = direction
     if touche is not None:
-        if touche == 'z' or touche == "HAUT":
+        if touche == 'z' or touche == "UP":
             local_dir = 1
-        elif touche == 's' or touche == "BAS":
+        elif touche == 's' or touche == "DOWWN":
             local_dir = 3
-        elif touche == 'q' or touche == "GAUCHE":
+        elif touche == 'q' or touche == "LEFT":
             local_dir = 2
-        elif touche == 'd' or touche == "DROITE":
+        elif touche == 'd' or touche == "RIGHT":
             local_dir = 4
         elif touche == 'x':
             return (1)

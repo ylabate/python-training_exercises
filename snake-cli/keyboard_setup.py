@@ -18,10 +18,10 @@ class keyboard_setup:
 
             if char == '\x1b':
                 seq = sys.stdin.read(2)
-                if seq == '[A': return "HAUT"
-                if seq == '[B': return "BAS"
-                if seq == '[C': return "DROITE"
-                if seq == '[D': return "GAUCHE"
+                if seq == '[A': return "UP"
+                if seq == '[B': return "DOWN"
+                if seq == '[C': return "RIGHT"
+                if seq == '[D': return "LEFT"
 
             return char
         return None
